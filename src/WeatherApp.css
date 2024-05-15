@@ -1,0 +1,121 @@
+.weather-container {
+    width: 450px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(8, 0, 255),rgb(34, 16, 151));
+    border: 3px solid white;
+    border-radius:  30px; 
+   
+}
+
+.search{
+    width: 85%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30px;
+    border: 3px solid rgb(3, 3, 45);
+    border-radius: 25px;
+
+}
+
+.inp{
+    width: 75%;
+    height: 100%;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-left: 40px;
+    color: rgb(3, 3, 45);
+    
+
+}
+
+
+.btn{
+    width: 15%;
+    height:100%;
+    background: rgb(3, 3, 45);
+    border-radius: 0px 20px 20px 0px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.btn i {
+    font-size: 23px;
+    color: white;
+}
+
+.btn:hover i {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.btn:active i {
+   font-size: 22px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(7, 12, 70);
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDilhA0S3IfaUo9BIIlDsAtjh8_D-RulWa-g&usqp=CAU");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(7, 12, 70);
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExhjIV6JwCabpJaU0by0syO2_yZIUtvDerDmtQfDHrl3YUeCBxuJ-YVhjjxVnp-egmEI&usqp=CAU");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.img3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(7, 12, 70);
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://img.freepik.com/free-vector/cloud-with-falling-rain-background_1017-32364.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.box{
+    width: 90%;
+    height: 200px;
+    background: transparent;
+    border: 3px solid rgb(5, 5, 73);
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+ul li {
+    font-size: 20px;
+    margin: 15px;
+}
